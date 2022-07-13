@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f6d495ec-5490-4282-853c-51f4e00197e6" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1rRyChMrsK0h4JCiFgK65uLs3dH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/forms_rt.jar" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propGUI" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sergei\floobits\share\Lilacflare\CSCI_5801_Waterfall\src" />
+      <recent name="C:\Users\Sergei\floobits\share\Lilacflare\CSCI_5801_Waterfall\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.VotingSystem">
+    <configuration name="UnitTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UnitTester" />
+      <module name="CSCI_5801_Waterfall" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.main" />
+      <item itemvalue="Application.VotingSystem" />
+      <item itemvalue="Application.UnitTester" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UnitTester" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f6d495ec-5490-4282-853c-51f4e00197e6" name="Default Changelist" comment="" />
+      <created>1618953070339</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1618953070339</updated>
+      <workItem from="1618953071470" duration="1051000" />
+      <workItem from="1618954503994" duration="681000" />
+      <workItem from="1619029824491" duration="399000" />
+      <workItem from="1619030237072" duration="300000" />
+      <workItem from="1619134508768" duration="280000" />
+      <workItem from="1619134800067" duration="848000" />
+      <workItem from="1619539494328" duration="468000" />
+      <workItem from="1619539980026" duration="6484000" />
+      <workItem from="1619561328652" duration="936000" />
+      <workItem from="1619562709913" duration="1234000" />
+      <workItem from="1619715025725" duration="1553000" />
+      <workItem from="1619733935286" duration="4043000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

@@ -1,0 +1,13 @@
+OPL Election
+The quota for one seat is for every 2 votes a party may have
+There are no parties that are guaranteed seats for all their candidates
+The yomama party is guaranteed a total of 1 seat(s) from their 3 votes and now have 
+   the yomama party's 1 votes not redeemed for a seat and so may win 1 more seat depending on how many votes the other parties have remaining 
+The communist party did not get enough votes to meet the quota with only 0 vote so it is not guaranteed any seats and may at most get 1 seat
+yomama has won an extra seat based on the amount of votes it has left over (1 votes) and now has a total of 2 assigned seats
+
+Assigning seats to candidates:
+yomama has 2 seats to give
+ - Bob has received a seat, 1 seats remaining
+ - Charlse has received a seat, 0 seats remaining
+

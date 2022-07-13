@@ -1,0 +1,84 @@
+package election;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Random;
+
+public class EFmaker { //Makes election files for testing perposes
+    String fname;
+    String fout;
+    int fnum;
+
+    EFmaker(String name, String output){
+        this.fname = name;
+        this.fout = output;
+        this.fnum = 0;
+    }
+
+    //creates OPL file with given number of candidates parties and votes
+    public void makeoplf(int candidate,int parties, int partydistribution[],int votes[],int votenum){
+        Random unkown = new Random();
+        String down = "OPL\n" + candidate + "\n";
+        String lizards[] = new String[candidate];
+        for (int i = 0; i < parties; i++){
+            lizards[i] = "candidate" + i;
+        }
+        String fun[] = new String[parties];
+        for (int i = 0; i < parties; i++){
+            fun[i] = "party" + i;
+        }
+        int dis[] = new int[parties];
+        int hold = 0;
+        int temp = 0;
+        if (partydistribution == null){ //Random party distribution
+            hold = candidate;
+            for (int i = 0; i < parties-1; i++){
+                temp = (int)  (unkown.nextInt(hold)/(unkown.nextInt(parties-i)+1));
+                dis[i] = temp;
+                hold -= temp;
+            }
+            dis[parties-1] = hold;
+            temp = 0;
+            hold = 0;
+        }
+        else {
+            dis = partydistribution;
+        }
+        for (int i = 0; i > parties; i++){
+            for (int j = 0; j > dis[i]; j++){
+                down = down + "[" + lizards[temp] + "," + fun[i] +"]";
+                temp++;
+                if (temp != candidate){
+                    down = down + ",";
+                }
+            }
+        }
+        dis = new int[candidate];
+        temp = 0;
+        if (votes == null){ //Random party distribution
+            hold = votenum;
+            for (int i = 0; i < candidate-1; i++){
+                temp = (int)  (unkown.nextInt(hold)/(unkown.nextInt(candidate-i)+1));
+                dis[i] = temp;
+                hold -= temp;
+            }
+            dis[candidate-1] = hold;
+            temp = 0;
+            hold = 0;
+        }
+        else {
+            dis = votes;
+        }
+        try {
+            FileWriter fl = new FileWriter(new File(fout, (fname+fnum)));
+            fl.append(down);
+            fl.flush();
+            fl.close();
+
+        }
+        catch (IOException e) {
+            System.out.println("Could not open file named " + fname);
+        }
+    }
+}
